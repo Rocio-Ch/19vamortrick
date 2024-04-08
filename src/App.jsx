@@ -14,6 +14,7 @@ function App() {
         .then(({ data }) => {
           setCharacters(data.results)
         })
+        .catch((error) => console.log(error))
     }, [status])
 
   return (
