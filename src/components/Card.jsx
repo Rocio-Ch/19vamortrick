@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
 export default function CardCharacter({ name, species, gender, image, status }) {
+
   return (
     <Card sx={{ maxWidth: 345, margin: "20px", border: "1px solid #a3a2a2", boxShadow: "1px 1px 12px 0px rgba(77,74,74,0.75)" }}>
       <CardMedia
